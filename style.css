@@ -1,0 +1,127 @@
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background: #ffff;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #808080;
+    padding: 5px 15px;
+}
+
+.banner h2 {
+
+    font-size: 100px;
+    font-weight: 1000;
+    margin-top: 16%;
+    padding-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pg {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding-left: 40px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.pr {
+    padding-left: 40px;
+    text-align: justify;
+    justify-content: left;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(0, 153, 255);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: rgb(21, 140, 195);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+a {
+    margin-left: 40px;
+}
+
+.img {
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+h1 {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.card-group .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card2{
+    margin-top: 50px;
+}
+.card2 .card-img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card2 .card-title{
+    color: rgb(2, 146, 45);
+    font-size: 3rem;
+}
+.card2 .card-text{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 180px;
+    font-style: italic;
+}
+
+.carousel{
+    margin-top: 100px;
+}
+
+
+
